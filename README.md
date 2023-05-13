@@ -14,5 +14,4 @@ Recursion In GraphQL:
 
 <img width="372" alt="Screenshot 2023-05-13 at 3 29 40 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/534bc341-8562-4c82-a44f-fcbdad9faf9d">
 
-
-
+<img width="1792" alt="Screenshot 2023-05-13 at 3 33 43 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/add80156-2750-42b6-bb85-eefec4f8c624">
