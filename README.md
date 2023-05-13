@@ -24,3 +24,23 @@ MaxQueryDepth
 
 <img width="734" alt="Screenshot 2023-05-13 at 3 49 10 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/415cb5af-4a55-48de-9e14-466ccaecfe79">
 
+
+```
+Recursion in a graphql schema is possible. This presents some denial-of-service vulnerabilities in our graphql server. Why? 
+
+If two types have reference to each other, you have now exposed a cyclical query:
+
+type A {
+    b: B
+}
+
+type B {
+   a: A
+}
+
+An attacker could exploit this and submit an extremely large query containing A - B - A - B - A - B etc. Depending how your server resolves these elements, will have different side effects. Your graphql server could make thousands of extra network requests, perform expensive CPU operations, bring down your server with out-of-memory error or saturate all tomcat request threads, denying other users access to the graphql server. 
+
+There are various ways to mitigate this vulnerability, one simple way is by using a GraphQL query max depth limit. Requests will be rejected that request a query depth exceeding the limit. This can be specified in graphql spring boot with the property:
+
+graphql.servlet.maxQueryDepth
+```
