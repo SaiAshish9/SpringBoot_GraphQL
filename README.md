@@ -24,6 +24,7 @@ MaxQueryDepth
 
 <img width="734" alt="Screenshot 2023-05-13 at 3 49 10 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/415cb5af-4a55-48de-9e14-466ccaecfe79">
 
+<img width="500" alt="Screenshot 2023-05-13 at 4 02 25 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/2bebd62a-2848-4c03-8d8d-08b62c5271b4">
 
 ```
 Recursion in a graphql schema is possible. This presents some denial-of-service vulnerabilities in our graphql server. Why? 
