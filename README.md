@@ -15,3 +15,12 @@ Recursion In GraphQL:
 <img width="372" alt="Screenshot 2023-05-13 at 3 29 40 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/534bc341-8562-4c82-a44f-fcbdad9faf9d">
 
 <img width="1792" alt="Screenshot 2023-05-13 at 3 33 43 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/add80156-2750-42b6-bb85-eefec4f8c624">
+
+```
+MaxQueryDepth
+```
+
+<img width="620" alt="Screenshot 2023-05-13 at 3 41 32 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/95261f7c-f4a2-4b8e-b29d-534f966b2617">
+
+<img width="734" alt="Screenshot 2023-05-13 at 3 49 10 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/415cb5af-4a55-48de-9e14-466ccaecfe79">
+
