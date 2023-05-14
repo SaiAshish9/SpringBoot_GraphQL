@@ -57,8 +57,7 @@ Playground Variables
 <img width="929" alt="Screenshot 2023-05-14 at 6 42 10 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/f6f9e22c-ea39-4906-af67-c67fdce2fbfe">
 
 ```
-
+GraphQL Voyager
 ```
 
-
-
+<img width="658" alt="Screenshot 2023-05-15 at 1 36 57 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/5efa7a8b-0961-491f-b012-89271adb0a0e">
