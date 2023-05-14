@@ -45,3 +45,11 @@ There are various ways to mitigate this vulnerability, one simple way is by usin
 
 graphql.servlet.maxQueryDepth
 ```
+
+```
+Playground Variables
+```
+
+<img width="1792" alt="Screenshot 2023-05-14 at 6 38 39 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/123a4844-af9f-404d-badc-25c9db7b9ab0">
+
+<img width="1791" alt="Screenshot 2023-05-14 at 6 39 39 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/964fe7ed-adfe-45f2-aea8-eb8e405a6f06">
