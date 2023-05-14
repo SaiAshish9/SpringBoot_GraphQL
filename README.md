@@ -54,6 +54,8 @@ Playground Variables
 
 <img width="1791" alt="Screenshot 2023-05-14 at 6 39 39 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/964fe7ed-adfe-45f2-aea8-eb8e405a6f06">
 
+<img width="929" alt="Screenshot 2023-05-14 at 6 42 10 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/f6f9e22c-ea39-4906-af67-c67fdce2fbfe">
+
 ```
 
 ```
