@@ -76,3 +76,10 @@ Resolvers
 
 <img width="580" alt="Screenshot 2023-05-15 at 11 28 19 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/1ca46d56-ba8b-4c68-8dd2-766bcc1459fe">
 
+```
+Exception Handling with ExceptionHandler
+```
+
+<img width="837" alt="Screenshot 2023-05-15 at 11 38 32 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/0892a689-729f-4eda-add1-34109160a399">
+
+<img width="1792" alt="Screenshot 2023-05-15 at 11 39 44 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/2602d0ee-4b6f-4ed2-b4a9-b6242be13c29">
