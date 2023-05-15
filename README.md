@@ -130,3 +130,20 @@ assets resolver will wait until the client resolver is completed
 <img width="1792" alt="Screenshot 2023-05-16 at 1 24 55 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/ac8ed45f-13bc-4dc0-a71a-7901f8d2e1a4">
 
 <img width="1792" alt="Screenshot 2023-05-16 at 1 27 01 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/67078d16-ff13-4961-8fd8-2ecae2bf1869">
+
+```
+Mutation
+```
+
+<img width="772" alt="Screenshot 2023-05-16 at 2 00 58 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/fae2e368-121e-498f-9174-a7a14ceb4b4f">
+
+<img width="467" alt="Screenshot 2023-05-16 at 2 01 07 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/fd2cac72-42f5-4653-a287-0a02b47df656">
+
+<img width="714" alt="Screenshot 2023-05-16 at 2 01 21 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/5e9942ea-5e70-4840-8535-fcb8bf6b759a">
+
+<img width="1792" alt="Screenshot 2023-05-16 at 2 35 52 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/991c3db8-c5f0-4700-96ac-39517f89d063">
+
+```
+File Upload
+```
+
