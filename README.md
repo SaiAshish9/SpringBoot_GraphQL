@@ -64,5 +64,15 @@ GraphQL Voyager
 
 <img width="1789" alt="Screenshot 2023-05-15 at 1 37 59 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/6fb4e79a-50fc-475d-b8a7-b8198ffac757">
 
+```
+Resolvers
+```
 
+<img width="1792" alt="Screenshot 2023-05-15 at 11 27 19 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/c261ff2e-7525-44db-a20d-36be7afc7327">
+
+<img width="654" alt="Screenshot 2023-05-15 at 11 27 38 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/5e418d44-7890-4a5d-b28f-638dbab711ef">
+
+<img width="747" alt="Screenshot 2023-05-15 at 11 27 55 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/e58c1aa8-9a17-426d-b4bd-03a93eeef114">
+
+<img width="580" alt="Screenshot 2023-05-15 at 11 28 19 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/1ca46d56-ba8b-4c68-8dd2-766bcc1459fe">
 
