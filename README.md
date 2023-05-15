@@ -96,4 +96,17 @@ GraphqlExceptionHandler
 
 <img width="678" alt="Screenshot 2023-05-16 at 12 01 50 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/d3b8ea90-ff37-49a8-a871-b44d634a87c5">
 
+<img width="729" alt="Screenshot 2023-05-16 at 12 03 20 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/6b8855c7-d36b-4555-b2a0-4056d207bdf2">
+
+<img width="1516" alt="Screenshot 2023-05-16 at 12 04 33 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/a41282ec-651c-42b2-b34b-853a8fad418e">
+
+<img width="1527" alt="Screenshot 2023-05-16 at 12 05 51 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/d0b29d5e-3e42-4857-a0d1-98fa501e23bc">
+
+<img width="1792" alt="Screenshot 2023-05-16 at 12 06 21 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/ff214fb0-e5f8-4f52-9050-e11026de3c3d">
+
+```
+
+```
+
+
 
