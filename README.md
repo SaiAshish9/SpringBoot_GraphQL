@@ -87,7 +87,13 @@ Exception Handling with ExceptionHandler
 
 
 ```
-
+GraphqlExceptionHandler
 ```
+
+<img width="636" alt="Screenshot 2023-05-16 at 12 01 03 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/5d3e7ec1-b4c3-4ecb-a0d4-071ccf14014f">
+
+<img width="730" alt="Screenshot 2023-05-16 at 12 01 25 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/62631228-b04d-4a0b-bc56-3dbcaef24e65">
+
+<img width="678" alt="Screenshot 2023-05-16 at 12 01 50 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/d3b8ea90-ff37-49a8-a871-b44d634a87c5">
 
 
