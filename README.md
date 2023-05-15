@@ -120,5 +120,7 @@ DataFetcherResult
 <img width="1792" alt="Screenshot 2023-05-16 at 12 38 32 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/55dba8fa-933d-4f6f-8ac9-d87dd8580fec">
 
 ```
-
+Asynchronous Resolvers
 ```
+
+
