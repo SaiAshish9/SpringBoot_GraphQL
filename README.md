@@ -110,12 +110,15 @@ GraphqlExceptionHandler
 
 <img width="1671" alt="Screenshot 2023-05-16 at 12 15 13 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/5c342e2e-7fac-4ebb-9683-45b4cbcb221d">
 
+
 ```
 DataFetcherResult
 ```
 
-```
+<img width="878" alt="Screenshot 2023-05-16 at 12 38 03 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/61c84aef-5fd9-4f12-a88d-d28ed181f0d3">
+
+<img width="1792" alt="Screenshot 2023-05-16 at 12 38 32 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/55dba8fa-933d-4f6f-8ac9-d87dd8580fec">
 
 ```
 
-
+```
