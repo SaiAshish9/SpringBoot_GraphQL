@@ -121,6 +121,10 @@ DataFetcherResult
 
 ```
 Asynchronous Resolvers
+
+assets resolver will wait until the client resolver is completed
 ```
 
+<img width="1792" alt="Screenshot 2023-05-16 at 1 24 43 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/46df81fd-2a3e-4e12-a55a-02ba39c96257">
 
+<img width="1792" alt="Screenshot 2023-05-16 at 1 24 55 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/ac8ed45f-13bc-4dc0-a71a-7901f8d2e1a4">
