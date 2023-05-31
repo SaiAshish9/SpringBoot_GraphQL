@@ -144,3 +144,6 @@ File Upload
 <img width="1792" alt="Screenshot 2023-06-01 at 1 18 59 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/55d0b70e-5f12-4575-8cb8-f83566556b7f">
 <img width="1792" alt="Screenshot 2023-06-01 at 1 19 18 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/cff886c8-21f7-4bf9-ab7a-e7c2921059bf">
 <img width="1789" alt="Screenshot 2023-06-01 at 1 19 40 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/25d0b27a-953b-4354-aea0-33406bcdee00">
+<img width="1792" alt="Screenshot 2023-06-01 at 1 46 27 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/760c6b30-2731-4547-9ea6-f9610eb108c9">
+<img width="1792" alt="Screenshot 2023-06-01 at 1 46 46 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/d2e7ff38-b40e-4607-8d4f-436b9b932502">
+
