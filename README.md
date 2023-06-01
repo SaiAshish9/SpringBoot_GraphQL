@@ -147,3 +147,8 @@ File Upload
 <img width="1792" alt="Screenshot 2023-06-01 at 1 46 27 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/760c6b30-2731-4547-9ea6-f9610eb108c9">
 <img width="1792" alt="Screenshot 2023-06-01 at 1 46 46 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/d2e7ff38-b40e-4607-8d4f-436b9b932502">
 
+```
+DataFetchingEnvironment
+```
+
+
