@@ -186,4 +186,60 @@ To get the requested field names you can stream the fields, filter and collect i
 <img width="1792" alt="Screenshot 2023-06-03 at 6 41 08 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/5714c9d5-6a62-4cd6-815e-92635efc3537">
 <img width="1792" alt="Screenshot 2023-06-03 at 6 41 31 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/09b6e17c-1775-4505-9020-a5d51ce72075">
 
+```
+Scalars
+```
+
+```
+A GraphQL scalar is a query leaf node that cannot be queried further via sub field selections. 
+The graphql specification states that five standard scalars must always be present on the type system, these are: String, Int, Float, Boolean and ID.
+
+It is very common that the standard five scalars are not descriptive enough. For example, how do we return a Date or DateTime? As a string? This is where we can create our own custom scalar implementations to define a more specific data type. 
+
+Here, I introduce the java graphql extended scalars dependency (graphql-java-extended-scalars) which contains many out-of-the-box scalars for Date, DateTime, PositiveInt, NonNegativeInt and many many more. You can additionally create your own by creating an implementation of GraphQLScalarType and following the patterns from the extended scalars.
+
+
+I just love the Numeric scalars:
+
+PositiveInt
+        An Int scalar that MUST be greater than zero.
+NegativeInt
+        An Int scalar that MUST be less than zero.
+NonPositiveInt
+        An Int scalar that MUST be less than or equal to zero.
+NonNegativeInt
+        An Int scalar that MUST be greater than or equal to zero.
+PositiveFloat
+        An Float scalar that MUST be greater than zero.
+NegativeFloat
+        An Float scalar that MUST be less than zero.
+NonPositiveFloat
+        An Float scalar that MUST be less than or equal to zero.
+NonNegativeFloat
+        An Float scalar that MUST be greater than or equal to zero.
+```
+
+<img width="1792" alt="Screenshot 2023-06-03 at 7 16 02 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/759722a7-766d-43b4-baa7-ae38ac5393aa">
+<img width="1792" alt="Screenshot 2023-06-03 at 7 30 19 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/a23cdb58-02ea-4e68-bfec-fa653997c6c1">
+<img width="1792" alt="Screenshot 2023-06-03 at 7 30 56 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/e52d70f0-a1ae-471b-8c85-d466a41b68d4">
+<img width="1792" alt="Screenshot 2023-06-03 at 7 31 22 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/0d338eaf-462a-41d3-bcfd-9517bb73c303">
+<img width="1792" alt="Screenshot 2023-06-03 at 7 33 06 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/72e09913-111d-47b6-9060-6e2dfac59e0c">
+<img width="1792" alt="Screenshot 2023-06-03 at 7 34 52 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/26e6e404-dc6b-4aea-9dbe-d768c3a9cfd7">
+<img width="1792" alt="Screenshot 2023-06-03 at 7 35 26 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/5f155a66-73a1-4357-aac0-db8030cb26e3">
+
+```
+Data Type
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
