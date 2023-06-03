@@ -151,4 +151,39 @@ File Upload
 DataFetchingEnvironment
 ```
 
+<img width="1792" alt="Screenshot 2023-06-03 at 6 11 41 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/77082568-5621-42ce-a530-a63cd095f99c">
+<img width="1792" alt="Screenshot 2023-06-03 at 6 19 45 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/34deab61-8d44-498d-a7ca-b8b7f8e08603">
+<img width="1792" alt="Screenshot 2023-06-03 at 6 21 59 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/1ebf4e10-c4c6-4eed-8ff6-64b43cd03999">
+<img width="1792" alt="Screenshot 2023-06-03 at 6 23 14 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/553fa653-6a47-4501-8158-4fbdc89a27f7">
+
+```
+Selection Set
+```
+
+```
+A selection set is the set of fields the user requested. 
+
+Having direct access to the fields can enable you to make performance optimized queries requesting only the needed data. For example an SQL backed system may be able to use the field sub selection to only retrieve the columns that have been asked for.
+
+If you look ahead in the selection set, you may be able to optimize further and collapse two backend resource calls into one. For example, if you can retrieve the sellingLocations data within the products API call. You can group everything into one API query instead of two.
+
+query {
+        products {
+            # the fields below represent the selection set
+            name
+            description
+            sellingLocations {
+                state
+            }
+        }
+    }
+
+The selection set (DataFetchingFieldSelectionSet) contains many useful utility methods such as:  contains, containsAnyOf, containsAnyOf. These can be used as the predicate to make your API call selection. 
+
+To get the requested field names you can stream the fields, filter and collect into a set.
+```
+
+<img width="1792" alt="Screenshot 2023-06-03 at 6 41 08 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/5714c9d5-6a62-4cd6-815e-92635efc3537">
+<img width="1792" alt="Screenshot 2023-06-03 at 6 41 31 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/09b6e17c-1775-4505-9020-a5d51ce72075">
+
 
