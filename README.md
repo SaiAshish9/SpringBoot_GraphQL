@@ -1,3 +1,5 @@
+<img width="1792" alt="Screenshot 2023-06-04 at 10 34 57 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/5010be45-4771-426c-9de6-0c533dc2c340">
+
 <img width="1792" alt="Screenshot 2023-05-13 at 1 07 43 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/ef735dce-3e02-49ec-ba52-7a1dd3b7d355">
 
 <img width="1792" alt="Screenshot 2023-05-13 at 1 08 15 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/0381f50b-502f-4e79-a24a-7362915858d8">
@@ -269,9 +271,18 @@ The Servlet Listener listens to the servlet request, but not to the GraphQL quer
 
 ```
 Pagination (Edges, Nodes, Cursor)
+
+GraphQL Spring Boot supports the recommended relay connection cursor pagination pattern.
+
+In this video, I implement the relay @connection directive and create a matching resolver with the graphql java relay Connection, Edges, Nodes, 
+PageInfo, StartCursor, EndCursor, isHasPreviousPage, isHasNextPage and Cursor package / classes.
+
+I have found that cursor-based pagination is the most powerful pagination pattern so-far. 
+
+Especially if the graphql cursors are opaque, and the real cursor value is used in combination with the SEEK sql pattern (or equivalent in other data stores). 
+Making the graphql cursor opaque (base 64 encoded) provides the additional flexibility if the pagination model changes in the future. 
+For example, the graphql api customers  / UI only needs to change the input filters and can consistently use the cursor to offset the next pages. 
+The UI does not need to know about the cursors real value, which parameter to set it in and in which format. It just supplies the edge's cursor to the 'after'. So... what I'm getting at is... the UI can stay simple :) 
 ```
-
-
-
 
 
