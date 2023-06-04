@@ -306,8 +306,30 @@ https://relay.dev/graphql/connections.htm
 <img width="1792" alt="Screenshot 2023-06-04 at 12 13 58 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/2f4b01ce-9530-480c-9cbd-ddec8bd4b8ef">
 
 ```
+Custom Context
+
+
+In graphql spring boot, you have the ability to create a custom object once at the very start of the query/mutation, and this object will be available
+to all mutations and queries via the DataFetchingEnvironment. The custom object can be any type, and is never used by the internal graphql java framework.
+
+
+As the context is created once and available in all revolvers; a common use-case to store user authorization data such as user id, permissions 
+and roles. This data can then be used to perform authorization on your mutation and resolvers. An alternative to this is spring security and
+pass the security context to other threads via DelegatingSecurityContextExecutorService. But the context file can contain anything you wish.
 
 ```
+
+<img width="1792" alt="Screenshot 2023-06-04 at 2 37 22 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/7926349e-3322-4d72-b3a5-865fadc4127f">
+<img width="1792" alt="Screenshot 2023-06-04 at 2 37 42 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/77a62f05-9551-469e-9bc7-f7508213a0b6">
+<img width="1792" alt="Screenshot 2023-06-04 at 2 37 58 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/f03f28ff-a1fb-4da1-a19c-be0163612df7">
+<img width="1792" alt="Screenshot 2023-06-04 at 2 38 12 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/a9040104-9565-4255-b931-10b5f4a405aa">
+
+```
+Data Loader
+```
+
+
+
 
 
 
