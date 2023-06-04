@@ -231,6 +231,10 @@ NonNegativeFloat
 Data Type
 ```
 
+<img width="1792" alt="Screenshot 2023-06-03 at 7 43 07 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/1e261458-a6dd-41af-933d-9853beb6d75e">
+<img width="1792" alt="Screenshot 2023-06-03 at 7 44 16 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/eb2b93cd-62df-416d-a041-32285a4d5298">
+<img width="1792" alt="Screenshot 2023-06-03 at 7 45 08 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/e028a652-f356-426f-ad3c-de4eab846e0b">
+
 
 
 
