@@ -350,6 +350,10 @@ To get around this, we can return a map from the dataloader function. When the m
 The keys provided MUST be first class keys since they will be used to examine the returned map and create the list of results, with nulls filling in for missing values.
 ```
 
+<img width="1792" alt="Screenshot 2023-06-04 at 4 24 40 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/c23a7d75-a172-42bf-aeda-39eef2c3907e">
+<img width="1787" alt="Screenshot 2023-06-04 at 4 25 08 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/aff50db0-de4b-4000-a49b-318de318d50f">
+
+
 ```
 Instrumentation (Request Logging)
 ```
