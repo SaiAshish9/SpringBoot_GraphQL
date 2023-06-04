@@ -451,3 +451,16 @@ It is extremely important that we do not have any mocks or spy beans in the inte
 <img width="1792" alt="Screenshot 2023-06-04 at 7 14 06 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/945a092f-ce8f-421e-97d8-89bab398ec7f">
 <img width="1792" alt="Screenshot 2023-06-04 at 7 14 15 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/f39c41a2-5f47-41bb-9f51-e2dc6bb2824e">
 <img width="1792" alt="Screenshot 2023-06-04 at 7 14 34 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/88b7c476-b259-4776-9acc-59221984107f">
+<img width="1792" alt="Screenshot 2023-06-04 at 7 21 12 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/b3019c74-3521-4eea-8f2b-cf2c4749b5fd">
+<img width="1792" alt="Screenshot 2023-06-04 at 7 40 17 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/ff68654f-7a05-4d9b-8cdc-c7a470262bee">
+<img width="1792" alt="Screenshot 2023-06-04 at 7 40 35 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/0edd0384-cc5b-401f-bbb9-40c20f0924ea">
+<img width="1792" alt="Screenshot 2023-06-04 at 7 40 45 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/75397cb9-ed80-4ae6-8ea8-54469443a29e">
+
+```
+JVM Profiling
+```
+
+
+
+
+
