@@ -241,14 +241,35 @@ Data Type
 
 ```
 Input Validation
+
+There are two ways of validating your graphql input types, via Directives or manually validating the input type in your resolver. In this episode we focus on the more old-school approach and put the JSR-303 bean validation annotations on our pojos. In a following tutorial, we will look at graphql-java-extended-validation which will allow us to remove all java bean validation annotations, and instead place the annotations directly on the schema. Pretty cool. 
+
+As graphql-java-extended-validation is still under active development and first stable release was 2 days ago (17 September 2020) I will provide tutorials on both validation methods . 
 ```
 
+<img width="1792" alt="Screenshot 2023-06-04 at 10 09 07 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/cf89f989-f2b7-47cb-aabd-8c3099797f5a">
+<img width="1792" alt="Screenshot 2023-06-04 at 10 10 46 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/089fd781-207a-4453-95c5-297d1dfb8b7d">
+<img width="1792" alt="Screenshot 2023-06-04 at 10 11 13 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/cf2fa2f4-cabc-4d0a-89b7-21c797fb7f08">
+<img width="1792" alt="Screenshot 2023-06-04 at 10 12 58 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/ad7e2586-ac82-414a-9a47-e0f1cad89d4e">
+<img width="1792" alt="Screenshot 2023-06-04 at 10 13 29 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/f6a444e3-ae4f-4071-a736-508489041fcc">
+<img width="1792" alt="Screenshot 2023-06-04 at 10 14 46 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/1374f4ac-a7cf-48c2-9310-bdbb551a3096">
+<img width="1792" alt="Screenshot 2023-06-04 at 10 17 10 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/cd8088fe-0302-46c4-8588-f31120e12183">
 
 
+```
+Listener
 
+The GraphQL Servlet library allows you to add a Servlet Listener for listening to the GraphQL request. It provides hooks into the servlet request execution (request, success, error, and finally).
 
+The Servlet Listener listens to the servlet request, but not to the GraphQL query execution. If you want to listen to that (pre/post resolver methods etc) you should use the Instrumentation provided by GraphQL Java.
+```
 
+<img width="1792" alt="Screenshot 2023-06-04 at 10 29 04 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/3d036a26-d60f-4581-bd77-08f0e65884f6">
+<img width="1792" alt="Screenshot 2023-06-04 at 10 30 41 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/dd667bc8-a65b-4c37-b9f8-c8badcc83bef">
 
+```
+Pagination (Edges, Nodes, Cursor)
+```
 
 
 
