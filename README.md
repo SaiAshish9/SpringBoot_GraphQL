@@ -292,6 +292,19 @@ The UI does not need to know about the cursors real value, which parameter to se
 
 https://relay.dev/graphql/connections.htm
 
+<img width="1792" alt="Screenshot 2023-06-04 at 11 27 08 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/ffbebadd-a33f-45ef-a487-4fa4b9d889f3">
+<img width="1792" alt="Screenshot 2023-06-04 at 11 36 26 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/1cf43178-6299-4662-be6b-dd439c9a4aff">
+<img width="1792" alt="Screenshot 2023-06-04 at 11 40 26 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/b69bedea-c0bc-40a1-af34-2bc5c5fbcd84">
+<img width="1792" alt="Screenshot 2023-06-04 at 12 00 05 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/6551ca66-3f66-4947-a040-854183bd599b">
+<img width="1792" alt="Screenshot 2023-06-04 at 12 00 33 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/d91d9e69-b9ce-4bc7-9769-39ddbbac9e5d">
+<img width="1792" alt="Screenshot 2023-06-04 at 12 01 42 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/32bd2316-6d24-4e18-af0c-ec73b9377ea8">
+<img width="1792" alt="Screenshot 2023-06-04 at 12 03 24 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/159ed88f-1aa2-49f7-afe5-bc0b524ea6a1">
+<img width="1792" alt="Screenshot 2023-06-04 at 12 12 50 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/d8d34667-1ae9-4d4a-81b0-a587b1758c1c">
+<img width="1792" alt="Screenshot 2023-06-04 at 12 13 13 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/1c8a899b-53e1-4321-95de-e6c46bac763b">
+<img width="1792" alt="Screenshot 2023-06-04 at 12 13 31 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/ea13decc-b059-412c-bdf6-96c47b33748f">
+<img width="1792" alt="Screenshot 2023-06-04 at 12 13 45 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/b130fd06-c4ec-4389-9d4f-0922b3cdce19">
+<img width="1792" alt="Screenshot 2023-06-04 at 12 13 58 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/2f4b01ce-9530-480c-9cbd-ddec8bd4b8ef">
+
 ```
 
 ```
