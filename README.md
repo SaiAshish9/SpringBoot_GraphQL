@@ -348,10 +348,19 @@ If you would use the classic dataloader, then the values would be returned into 
 To get around this, we can return a map from the dataloader function. When the map is processed by the DataLoader code, any keys that are missing in the map will be replaced with null values. The semantic that the number of DataLoader.load requests are matched with an equal number of values is kept.
 
 The keys provided MUST be first class keys since they will be used to examine the returned map and create the list of results, with nulls filling in for missing values.
+
+Single Network Call For Every Single Node, Latency Of First Request Will Be Added To The Second Request And So On.
 ```
 
 <img width="1792" alt="Screenshot 2023-06-04 at 4 24 40 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/c23a7d75-a172-42bf-aeda-39eef2c3907e">
 <img width="1787" alt="Screenshot 2023-06-04 at 4 25 08 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/aff50db0-de4b-4000-a49b-318de318d50f">
+<img width="1792" alt="Screenshot 2023-06-04 at 5 02 42 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/e8e6255b-336d-484b-b2ed-f3aa1d6dbb96">
+<img width="1792" alt="Screenshot 2023-06-04 at 5 03 05 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/ed4d7cbe-4bfb-488d-b161-192e44e59031">
+<img width="1787" alt="Screenshot 2023-06-04 at 5 13 33 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/4f4b0d13-bbaa-4d25-a438-f47fd3f2604e">
+<img width="1792" alt="Screenshot 2023-06-04 at 5 13 44 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/f28df6fb-9ba4-411c-84f7-181cef3f90ec">
+<img width="1792" alt="Screenshot 2023-06-04 at 5 13 58 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/ac70f52b-ef72-4915-96c4-4e4fef089b54">
+<img width="1792" alt="Screenshot 2023-06-04 at 5 14 04 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/dc51a515-11b6-4736-a261-ed170f80ef43">
+<img width="1792" alt="Screenshot 2023-06-04 at 5 14 17 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/dfe4851a-5b03-460d-ae11-f5b7ee9b7ab6">
 
 
 ```
@@ -371,5 +380,9 @@ Request Tracing
 <img width="1792" alt="Screenshot 2023-06-04 at 3 51 18 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/0a35dbec-5ffc-46fc-ac27-f0d02d610c66">
 
 https://netflix.github.io/dgs/advanced/instrumentation/
+
+```
+Correlation ID (Thread propagation)
+```
 
 
