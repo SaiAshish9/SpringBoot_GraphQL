@@ -234,7 +234,14 @@ Data Type
 <img width="1792" alt="Screenshot 2023-06-03 at 7 43 07 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/1e261458-a6dd-41af-933d-9853beb6d75e">
 <img width="1792" alt="Screenshot 2023-06-03 at 7 44 16 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/eb2b93cd-62df-416d-a041-32285a4d5298">
 <img width="1792" alt="Screenshot 2023-06-03 at 7 45 08 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/e028a652-f356-426f-ad3c-de4eab846e0b">
+<img width="1792" alt="Screenshot 2023-06-04 at 9 16 16 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/1fa79adf-63b2-4c4a-8749-591a9e045fbf">
+<img width="1792" alt="Screenshot 2023-06-04 at 9 18 03 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/e79c21da-9c55-417a-8b68-5b2b030c4a2d">
+<img width="1792" alt="Screenshot 2023-06-04 at 9 19 13 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/e23591a9-dd09-487f-8ef5-0118d61a50a6">
+<img width="1792" alt="Screenshot 2023-06-04 at 9 22 11 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/b578971e-77fa-4e41-9f15-a9f171015c00">
 
+```
+Input Validation
+```
 
 
 
