@@ -285,4 +285,16 @@ For example, the graphql api customers  / UI only needs to change the input filt
 The UI does not need to know about the cursors real value, which parameter to set it in and in which format. It just supplies the edge's cursor to the 'after'. So... what I'm getting at is... the UI can stay simple :) 
 ```
 
+<img width="833" alt="Screenshot 2023-06-04 at 10 42 11 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/58d8dfdc-eb90-4473-a606-28a3b8fc5bec">
+<img width="1792" alt="Screenshot 2023-06-04 at 10 43 09 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/90594763-680f-4b0f-99b3-59445d382103">
+<img width="1792" alt="Screenshot 2023-06-04 at 10 47 55 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/9c0e316e-2884-4457-93c1-0015767847ff">
+<img width="870" alt="Screenshot 2023-06-04 at 10 48 29 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/89b384e7-4724-4aa6-a8d3-9b15e9a557c8">
+
+https://relay.dev/graphql/connections.htm
+
+```
+
+```
+
+
 
