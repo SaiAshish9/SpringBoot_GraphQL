@@ -326,10 +326,46 @@ pass the security context to other threads via DelegatingSecurityContextExecutor
 
 ```
 Data Loader
+
+The dreaded graphql N+1 problem gives most devs the creeps. 
+
+By default in GraphQL, a query resolver will resolve a field's nodes sequentially. When you have a list (see connection cursor video linked below) of nodes, It will resolve each node's fields sequentially. For example if you have 2 nodes with field X  in the selection set. It will execute the query resolver first, then resolver for Node1 Field X followed by Node2 Field X. This is the N+1 problem. 
+
+
+I simulate how a small backend API latency can introduce massive latency into your graphql API. That is with dataloader neglect.
+
+
+In most cases you would want to group together Field X values and batch them to the backing API. This leads to massive performance gains in reduction of network traffic and optimal database queries on the datasource. 
+
+Here we use the Java graphql dataloader (a direct port of facebook's dataloader) to solve this problem. We can easily use CompletableFutures to load the IDs and I recommend using  a mapped batch dataloader. With the DataLoader creation you can customize the cache and maximum batch size with the DataLoaderOptions parameter.
+
+
+Often there is not a 1:1 mapping of your batch loaded keys to the values returned.
+For example, a SQL query may return fewer results than query IDs. (does not exist or duplicates).
+If you would use the classic dataloader, then the values would be returned into the wrong requesting nodes and the last (Requested Ids minus responded ids) would have null values. This is because it mays 1:1 by default. Big trouble here.
+
+
+To get around this, we can return a map from the dataloader function. When the map is processed by the DataLoader code, any keys that are missing in the map will be replaced with null values. The semantic that the number of DataLoader.load requests are matched with an equal number of values is kept.
+
+The keys provided MUST be first class keys since they will be used to examine the returned map and create the list of results, with nulls filling in for missing values.
 ```
 
+```
+Instrumentation (Request Logging)
+```
 
+<img width="1792" alt="Screenshot 2023-06-04 at 3 42 32 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/92a0a4df-9478-44fd-abae-66ee81e5dd98">
+<img width="1792" alt="Screenshot 2023-06-04 at 3 42 57 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/a1600eb3-5ec4-4741-9b67-fe831f2183fd">
 
+```
+Request Tracing
+```
 
+<img width="1792" alt="Screenshot 2023-06-04 at 3 15 40 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/38d1b099-f1e2-4891-9cb0-44e748b24a86">
+<img width="1792" alt="Screenshot 2023-06-04 at 3 50 39 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/02d57909-e5f9-442f-a50e-528be5e4c6a9">
+<img width="1792" alt="Screenshot 2023-06-04 at 3 50 51 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/5a33ffc4-810d-449c-a76b-2c9ed1121f3e">
+<img width="1792" alt="Screenshot 2023-06-04 at 3 51 18 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/0a35dbec-5ffc-46fc-ac27-f0d02d610c66">
+
+https://netflix.github.io/dgs/advanced/instrumentation/
 
 
