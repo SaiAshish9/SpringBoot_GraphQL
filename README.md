@@ -1,3 +1,21 @@
+<img width="1440" alt="Screenshot 2023-06-05 at 11 16 04 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/9c705b01-9fca-447d-8099-d9998b9ed63a">
+
+<img width="1440" alt="Screenshot 2023-06-05 at 11 17 08 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/7b333e6b-02df-4d7f-b466-21e19fe51470">
+
+<img width="1440" alt="Screenshot 2023-06-05 at 11 18 07 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/51ac124c-1266-4baf-85d8-f8c3619281a4">
+
+<img width="1440" alt="Screenshot 2023-06-05 at 11 18 13 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/1e599853-5c6a-4ae3-adf7-cac2d2aee0c9">
+
+<img width="1440" alt="Screenshot 2023-06-05 at 11 18 27 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/784e9830-80ed-4294-8774-b4348816d53c">
+
+<img width="1440" alt="Screenshot 2023-06-05 at 11 18 46 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/5309cf09-9f3c-499d-8612-d9ad6a3afc95">
+
+<img width="1440" alt="Screenshot 2023-06-05 at 11 20 09 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/3704fc15-4f4d-4516-b03f-4d637bb86d92">
+
+<img width="1440" alt="Screenshot 2023-06-05 at 11 21 19 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/8a802eb7-17f0-40bc-82d4-bbf7bcc734ac">
+
+<img width="1440" alt="Screenshot 2023-06-05 at 11 22 18 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/22d08ef7-32bb-491b-b436-55dfe4c6d02d">
+
 <img width="1792" alt="Screenshot 2023-06-04 at 10 34 57 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/5010be45-4771-426c-9de6-0c533dc2c340">
 
 <img width="1792" alt="Screenshot 2023-05-13 at 1 07 43 PM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/ef735dce-3e02-49ec-ba52-7a1dd3b7d355">
