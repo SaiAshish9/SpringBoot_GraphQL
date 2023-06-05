@@ -551,6 +551,15 @@ In the video I forgot to mark the PreAuthenticatedAuthenticationProvider as a Sp
 <img width="1161" alt="Screenshot 2023-06-05 at 9 09 54 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/8935a50c-050c-4b90-af05-002365c22a55">
 <img width="1792" alt="Screenshot 2023-06-05 at 9 18 00 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/aa1c0154-69fe-4875-bc27-e09a549c9ee0">
 <img width="1792" alt="Screenshot 2023-06-05 at 9 18 08 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/60597a5f-1559-40f7-95c3-001741fda40b">
+<img width="1792" alt="Screenshot 2023-06-05 at 9 29 39 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/39e04dbb-cf48-41d3-97f3-e6cf9b4f7bdf">
+
+
+```
+MDC Correlation ID
+```
+
+
+
 <img width="1792" alt="Screenshot 2023-06-05 at 9 18 14 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/c899338f-0e41-440a-ac8f-a041ae7a7cbf">
 <img width="1792" alt="Screenshot 2023-06-05 at 9 19 36 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/6df16008-bb99-466e-ac92-c7111b918f9f">
 
