@@ -559,6 +559,18 @@ Schema Directive Validation
 
 <img width="1792" alt="Screenshot 2023-06-05 at 10 00 07 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/2be74b2c-5e44-4ce9-8b64-3b0898a00886">
 <img width="1792" alt="Screenshot 2023-06-05 at 10 01 50 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/e44942f0-f735-40a4-9c70-2f24dac48554">
+<img width="1792" alt="Screenshot 2023-06-05 at 10 20 06 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/77d84bce-0c97-4f2c-b0a8-9c12199ed897">
+<img width="1788" alt="Screenshot 2023-06-05 at 10 21 04 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/00efc49c-8df7-4091-b1b4-0e0db2172a56">
+<img width="1792" alt="Screenshot 2023-06-05 at 10 22 36 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/751e5018-77e7-438f-9b3b-4b35d290798a">
+<img width="1786" alt="Screenshot 2023-06-05 at 10 24 18 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/8a6f3eb0-e96b-4df8-b234-fdf4fd3d68de">
+<img width="1792" alt="Screenshot 2023-06-05 at 10 23 44 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/2849dd8f-cbf0-4124-8ea2-d6eed2e5bc2e">
+<img width="1792" alt="Screenshot 2023-06-05 at 10 25 21 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/21ea5a14-791f-462e-be54-03c2639023ad">
+<img width="1792" alt="Screenshot 2023-06-05 at 10 26 13 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/91ba4347-fefd-411e-9006-24556ce5ea11">
+<img width="1792" alt="Screenshot 2023-06-05 at 10 26 20 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/8911f6cb-91b5-4a36-bf13-6ab3b4a97030">
+<img width="1792" alt="Screenshot 2023-06-05 at 10 26 42 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/9d560c25-38a8-4d32-92e2-a4056a66c41a">
+<img width="1792" alt="Screenshot 2023-06-05 at 10 29 24 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/f61e70fb-d59f-42c0-bd33-c71ee6f6c748">
+<img width="1792" alt="Screenshot 2023-06-05 at 10 29 32 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/6fa99528-1b64-4174-9aa3-c2d9618f83aa">
+<img width="1778" alt="Screenshot 2023-06-05 at 10 30 19 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/bcce38d8-93de-405a-8191-4134a2eab58b">
 
 ```
 Subscriptions
