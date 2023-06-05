@@ -1,0 +1,8 @@
+scalar NonNegativeInt
+scalar DateTime
+scalar Date
+
+type Mutation {
+    createBankAccount(input: CreateBankAccountInput!): BankAccount!
+    uploadFile: ID!
+}

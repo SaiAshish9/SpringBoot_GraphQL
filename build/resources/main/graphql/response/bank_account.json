@@ -1,0 +1,13 @@
+{
+  "data": {
+    "bankAccount": {
+      "id": "7edebef3-609a-48dc-9da7-169b67413524",
+      "createdOn": "2023-06-04",
+      "currency": "USD",
+      "client": {
+        "firstName": "Sai",
+        "lastName": "Ashish"
+      }
+    }
+  }
+}

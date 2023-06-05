@@ -1,31 +1,56 @@
 plugins {
-	id 'java'
+    id 'java'
 	id 'org.springframework.boot' version '3.0.6'
-	id 'io.spring.dependency-management' version '1.1.0'
+    id 'io.spring.dependency-management' version '1.1.0'
 }
 
 group = 'com.sai'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '17'
+sourceCompatibility = "17"
 
 configurations {
-	compileOnly {
-		extendsFrom annotationProcessor
-	}
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
 }
 
 repositories {
-	mavenCentral()
+    maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+    mavenCentral()
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs 'src/it/java'
+        }
+        resources {
+            srcDirs 'src/it/resources'
+        }
+    }
 }
 
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter-web'
-	compileOnly 'org.projectlombok:lombok'
-	developmentOnly 'org.springframework.boot:spring-boot-devtools'
-	annotationProcessor 'org.projectlombok:lombok'
-	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation group: 'org.apache.maven.plugins', name: 'maven-surefire-plugin', version: '3.1.0'
+    compileOnly 'org.springframework.boot:spring-boot-starter-validation'
+
+    implementation group: 'com.graphql-java-kickstart', name: 'graphql-spring-boot-starter', version: '15.0.0'
+    implementation group: 'com.graphql-java-kickstart', name: 'graphql-spring-boot-starter-test', version: '15.0.0'
+    implementation group: 'com.graphql-java', name: 'graphql-java-extended-scalars', version: '15.0.0'
+    implementation group: 'com.graphql-java', name: 'graphql-java-servlet', version: '4.7.0'
+
+    implementation group: 'net.sourceforge.pmd', name: 'pmd', version: '6.55.0', ext: 'pom'
+    implementation group: 'org.codehaus.mojo', name: 'build-helper-maven-plugin', version: '3.4.0'
+//    implementation 'org.springframework.boot:spring-boot-starter-security:2.4.1'
+    compileOnly 'org.projectlombok:lombok'
+    developmentOnly 'org.springframework.boot:spring-boot-devtools'
+    annotationProcessor 'org.projectlombok:lombok'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    implementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation group: 'org.apache.maven.plugins', name: 'maven-failsafe-plugin', version: '3.1.0'
 }
 
 tasks.named('test') {
-	useJUnitPlatform()
+    useJUnitPlatform()
 }
