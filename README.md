@@ -510,4 +510,29 @@ sudo find / -name "*visualvm*"
 
 <img width="1299" alt="Screenshot 2023-06-05 at 7 00 50 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/ddde6471-9787-4651-9929-5b7afb541f65">
 
+```
+DataLoader Key Context
+
+To solve this problem, we can load the ID with a context into the dataloader. In this example, the context is BankAccount. The IDs mapped to Contexts are accessible inside the dataloader function via the BatchLoaderEnvironment#getKeyContexts. Unfortunately this returns a Map(Object, Object) instead of the preferred generic types, so we loose type safety. To get around this, we cast this to Map, then we pass the Map into our function with Map(UUID, BankAccount) defined as the method parameters. 
+
+
+But, why don't we just load the BankAccount into the dataloader?
+This sounds good and easy - BUT If you do that, then we no-longer get the speed from the UUID hashmap lookups. So we always use the most efficient key possible.
+```
+
+<img width="1792" alt="Screenshot 2023-06-05 at 7 11 35 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/26ad8fe4-902f-41ff-94f7-c0fb047c96a1">
+<img width="1792" alt="Screenshot 2023-06-05 at 7 15 25 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/42c17d03-8f57-441b-a657-38e76d2cc4b1">
+<img width="1792" alt="Screenshot 2023-06-05 at 7 16 12 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/bd013b42-dd22-4767-8a20-b00b4e003c26">
+<img width="1792" alt="Screenshot 2023-06-05 at 7 21 05 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/f48d3239-0d11-4a0f-9374-86aa5c260e09">
+<img width="1786" alt="Screenshot 2023-06-05 at 7 21 33 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/9b7356f3-4a2b-42f8-a352-f7edbcee011a">
+
+
+```
+Spring Security
+```
+
+
+
+
+
 
