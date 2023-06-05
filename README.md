@@ -553,6 +553,19 @@ In the video I forgot to mark the PreAuthenticatedAuthenticationProvider as a Sp
 <img width="1792" alt="Screenshot 2023-06-05 at 9 18 08 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/60597a5f-1559-40f7-95c3-001741fda40b">
 <img width="1792" alt="Screenshot 2023-06-05 at 9 29 39 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/39e04dbb-cf48-41d3-97f3-e6cf9b4f7bdf">
 
+```
+Schema Directive Validation
+```
+
+<img width="1792" alt="Screenshot 2023-06-05 at 10 00 07 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/2be74b2c-5e44-4ce9-8b64-3b0898a00886">
+<img width="1792" alt="Screenshot 2023-06-05 at 10 01 50 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/e44942f0-f735-40a4-9c70-2f24dac48554">
+
+```
+Subscriptions
+```
+
+
+
 
 ```
 MDC Correlation ID
@@ -562,10 +575,3 @@ MDC Correlation ID
 <img width="1792" alt="Screenshot 2023-06-05 at 9 19 36 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/6df16008-bb99-466e-ac92-c7111b918f9f">
 <img width="1792" alt="Screenshot 2023-06-05 at 9 47 28 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/d735ec56-528a-461e-b068-b27e1ce41c70">
 <img width="1792" alt="Screenshot 2023-06-05 at 9 47 39 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/99a615c8-26d5-4dae-ba0a-6944250b97a4">
-
-
-```
-Schema Directive Validation
-```
-
-
