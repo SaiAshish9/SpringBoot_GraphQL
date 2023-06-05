@@ -34,9 +34,8 @@ public class BankAccountMutation implements GraphQLMutationResolver {
         .build();
     }
 
-    public BankAccount createBankAccount(UUID id, String name, int age){
-        System.out.println(e.getSelectionSet());
-        log.info("Creating bank account for {}", input);
+    public BankAccount updateBankAccount(UUID id, String name, int age){
+        log.info("Updating bank account for {}, {}, {}", id, name, age);
         return BankAccount.builder().id(UUID.randomUUID())
         .currency(Currency.USD)
         .createdAt(ZonedDateTime.now(clock))

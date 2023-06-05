@@ -1,9 +1,11 @@
 scalar NonNegativeInt
 scalar DateTime
 scalar Date
+directive @NotBlank on ARGUMENT_DEFINITION
+directive @Expression on ARGUMENT_DEFINITION
 
 type Mutation {
     createBankAccount(input: CreateBankAccountInput!): BankAccount!
-    updateBankAccount(id: ID, name: String!, age: Int): BankAccount!
+    updateBankAccount(id: ID, name: String! @NotBlank(message: "updateBankAccount.name"), age: Int @Expression(value: "${validatedValue < 500}", message: "updateBankAccount.age")): BankAccount!
     uploadFile: ID!
 }
