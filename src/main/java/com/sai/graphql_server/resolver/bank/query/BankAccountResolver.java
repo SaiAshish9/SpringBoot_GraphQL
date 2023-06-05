@@ -7,7 +7,6 @@ import graphql.schema.DataFetchingEnvironment;
 import lombok.extern.slf4j.Slf4j;
 import org.dataloader.DataLoader;
 import org.dataloader.DataLoaderRegistry;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
@@ -18,7 +17,7 @@ import java.util.concurrent.CompletableFuture;
 @Component
 public class BankAccountResolver implements GraphQLResolver<BankAccount> {
 
-    @PreAuthorize("hasAuthority('get:bank_account_balance')")
+//    @PreAuthorize("hasAuthority('get:bank_account_balance')")
     public CompletableFuture<BigDecimal> balance(BankAccount bankAccount, DataFetchingEnvironment environment) throws InterruptedException {
 //       Thread.sleep(3000L); Un-acceptable
         log.info("Getting balance for {}", bankAccount.getId());

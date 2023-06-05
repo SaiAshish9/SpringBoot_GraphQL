@@ -1,18 +1,16 @@
 package com.sai.graphql_server.context;
 
 import graphql.kickstart.servlet.context.GraphQLServletContext;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.Part;
 import lombok.Getter;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 import org.dataloader.DataLoaderRegistry;
 
-import javax.security.auth.Subject;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.Part;
 import java.util.List;
 import java.util.Map;
-import java.util.Optional;
 
 @Getter
 @RequiredArgsConstructor
@@ -42,13 +40,14 @@ public class CustomGraphQLContext implements GraphQLServletContext {
         return context.getHttpServletResponse();
     }
 
-    @Override
-    public Optional<Subject> getSubject() {
-        return context.getSubject();
-    }
 
     @Override
     public @NonNull DataLoaderRegistry getDataLoaderRegistry() {
         return context.getDataLoaderRegistry();
+    }
+
+    @Override
+    public Map<Object, Object> getMapOfContext() {
+        return context.getMapOfContext();
     }
 }

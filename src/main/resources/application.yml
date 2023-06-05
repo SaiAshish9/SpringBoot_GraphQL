@@ -12,7 +12,7 @@ graphql:
     actuator-metrics: true
     maxQueryDepth: 5
     exception-handlers-enabled: false
-#    tracingEnabled: true
+    tracingEnabled: true
   voyager:
     enabled: true
     basePath: /

@@ -13,7 +13,6 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 import org.springframework.lang.Nullable;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
@@ -30,7 +29,7 @@ public class BankAccountQueryResolver implements GraphQLQueryResolver {
     private final BankAccountRepository bankAccountRepository;
     private final CursorUtil cursorUtil;
 
-    @PreAuthorize("hasAuthority('get:bank_account')")
+//    @PreAuthorize("hasAuthority('get:bank_account')")
     public BankAccount bankAccount(UUID id, DataFetchingEnvironment dataFetchingEnvironment){
         log.info("Retrieving bank account id: {}", id);
         CustomGraphQLContext customGraphQLContext = dataFetchingEnvironment.getContext();
