@@ -551,5 +551,9 @@ In the video I forgot to mark the PreAuthenticatedAuthenticationProvider as a Sp
 <img width="1161" alt="Screenshot 2023-06-05 at 9 09 54 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/8935a50c-050c-4b90-af05-002365c22a55">
 
 
+```
+Schema Directive Validation
+```
+
 
 
