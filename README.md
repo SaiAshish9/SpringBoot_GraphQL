@@ -529,9 +529,26 @@ This sounds good and easy - BUT If you do that, then we no-longer get the speed 
 
 ```
 Spring Security
+
+In order to use pre-auth, you must ensure that all graphql requests have been previously authorized by an upstream service. For example, All Ingres traffic to this graphql service must bypass an upstream proxy node that will validate the request’s JWT token. If the JWT token is valid, then the proxy will forward the request into this graphql server. This code alone provides no authorization and is not production ready alone. Read more about pre-auth patterns before using this. 
+
+This proxy pattern is getting more common among kubernetes / service-mesh / side car enabled technologies such as istio. You will find an istio security architecture diagram linked at the bottom of this bio. There are many sidecar proxy options such as Kong or Envoy. 
+
+Personally I see many benefits of this pattern, as we can extract boilerplate, hard to maintain, error prone authorization configuration OUT of our application code. 
+
+This allows for a clearer separation of concerns. Authorization policies and mutual TLS in one world, and application code in another. 
+
+Forwarding additional headers containing the extracted authorization data may allow for a smoother transition to support other authentication methods. For example, if you can avoid your app code from decoding JWT base64 or having specific auth logic - then you can focus on the sidecar auth migration with minimal application code changes. Just think if you have 30+ microservices? An alternative would be to support a shared library and bump the app’s dependencies first. 
+
+
+The spring security context is thread bound. Luckily we can propagate the spring security context into our thread pools and executors. This will allow us to have spring security annotations and method level security on asynchronous threads / execution. For example @Async. You can propagate the security context by wrapping your executor in Spring's DelegatingSecurityContextExecutorService. Java doc linked below.
+
+
+In the video I forgot to mark the PreAuthenticatedAuthenticationProvider as a Spring Bean. That's why you see the default spring security fallback user/password on the logs.
 ```
 
-
+<img width="1607" alt="Screenshot 2023-06-05 at 7 24 51 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/5ae01db1-792d-400e-b842-833a3539478b">
+<img width="1161" alt="Screenshot 2023-06-05 at 9 09 54 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/8935a50c-050c-4b90-af05-002365c22a55">
 
 
 
