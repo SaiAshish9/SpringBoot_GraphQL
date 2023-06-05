@@ -558,10 +558,10 @@ In the video I forgot to mark the PreAuthenticatedAuthenticationProvider as a Sp
 MDC Correlation ID
 ```
 
-
-
 <img width="1792" alt="Screenshot 2023-06-05 at 9 18 14 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/c899338f-0e41-440a-ac8f-a041ae7a7cbf">
 <img width="1792" alt="Screenshot 2023-06-05 at 9 19 36 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/6df16008-bb99-466e-ac92-c7111b918f9f">
+<img width="1792" alt="Screenshot 2023-06-05 at 9 47 28 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/d735ec56-528a-461e-b068-b27e1ce41c70">
+<img width="1792" alt="Screenshot 2023-06-05 at 9 47 39 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/99a615c8-26d5-4dae-ba0a-6944250b97a4">
 
 
 ```
