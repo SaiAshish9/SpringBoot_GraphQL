@@ -458,9 +458,56 @@ It is extremely important that we do not have any mocks or spy beans in the inte
 
 ```
 JVM Profiling
+
+rofiling your java application has massive benefits, such as increasing the chance of finding redundant memory allocation and memory leaks. The first being critical for low latent and highly concurrent APIs.
+
+In this tutorial we will plant a memory allocation bug and identify it with VisualVM.
+
+The first thing we do it setup a small Apache JMeter load testing script for our GraphQL requests. We configure this to send 3 concurrent batches of 1000 requests.
+
+We then start our spring boot graphql server with the VisualVM IntelliJ launcher. Navigate to your application and select the profile tab. Open settings and add an asterisk symbol to record all classes/methods. Click start profiling.
+
+Execute the Jmeter script. 
+Navigate back to VisualVM and stop the profiler.
+
+You should now have insight into hot stack traces, heavy method calls and heap memory allocation. If you see "Unknown", restart VisualVM... sometimes it has this bug.
+
+VisualVM identified the memory allocation bug and told us the exact class and method. Thanks!!! 
+
+You can also try the sampling tab for memory allocation and CPU profiling.
+
+Other than the above, there are many kinds of application metrics you should consider such as 
+
+Service percentiles 
+Service availablity / uptime
+Internal http/grpc client percentiles
+Executor metrics (queue depth etc)
+GC execution
+Kubernetes memory requests
+JVM memory
+Method counts
+Exception counts / classes
+GraphQL queries / execution time
+GraphQL resolver execution time / counts
+Kubernetes CPU requests
+Database connection pools
+etc etc etc!
+
+
+Other tools I like are, micrometer, stackdriver, java mission control and gatling load testing.
 ```
 
+<img width="1792" alt="Screenshot 2023-06-05 at 12 10 39 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/e971c81a-28b5-4713-b7be-0b63f43809de">
+<img width="1425" alt="Screenshot 2023-06-05 at 12 15 16 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/843f8f20-a07f-4b19-86ec-1fa90a893352">
+<img width="1792" alt="Screenshot 2023-06-05 at 12 23 25 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/f34e96a9-5682-4a87-a19c-522de4653731">
 
+```
+sudo find / -name "*visualvm*"
+/usr/bin/jvisualvm
 
+/usr/libexec/java_home -V | grep jdk
+```
+
+<img width="1299" alt="Screenshot 2023-06-05 at 7 00 50 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/ddde6471-9787-4651-9929-5b7afb541f65">
 
 
