@@ -573,11 +573,15 @@ Schema Directive Validation
 <img width="1778" alt="Screenshot 2023-06-05 at 10 30 19 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/bcce38d8-93de-405a-8191-4134a2eab58b">
 
 ```
-Subscriptions
+Subscription with Reactor
 ```
 
+<img width="1784" alt="Screenshot 2023-06-05 at 10 35 37 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/7fe58e21-50a4-40ab-9fe7-aa0d60937a1f">
+<img width="1792" alt="Screenshot 2023-06-05 at 10 37 44 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/d2079908-c766-47a9-93f4-fa52f89f8468">
 
-
+```
+Subscription with Authorization
+```
 
 ```
 MDC Correlation ID
@@ -587,3 +591,8 @@ MDC Correlation ID
 <img width="1792" alt="Screenshot 2023-06-05 at 9 19 36 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/6df16008-bb99-466e-ac92-c7111b918f9f">
 <img width="1792" alt="Screenshot 2023-06-05 at 9 47 28 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/d735ec56-528a-461e-b068-b27e1ce41c70">
 <img width="1792" alt="Screenshot 2023-06-05 at 9 47 39 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/99a615c8-26d5-4dae-ba0a-6944250b97a4">
+
+```
+Query Caching Server Side
+```
+
