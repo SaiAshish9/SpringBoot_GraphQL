@@ -4,5 +4,6 @@ scalar Date
 
 type Mutation {
     createBankAccount(input: CreateBankAccountInput!): BankAccount!
+    updateBankAccount(id: ID, name: String!, age: Int): BankAccount!
     uploadFile: ID!
 }
