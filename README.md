@@ -1,3 +1,7 @@
+<img width="1440" alt="Screenshot 2023-06-05 at 11 27 11 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/87e156b1-45d8-419d-ab38-a4683bece024">
+
+<img width="1440" alt="Screenshot 2023-06-05 at 11 29 20 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/463ea772-f5f4-4796-b682-8699c993e0d9">
+
 <img width="1440" alt="Screenshot 2023-06-05 at 11 27 11 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/7ef0932f-46b9-4cc8-a5eb-444651bc4adf">
 
 <img width="1440" alt="Screenshot 2023-06-05 at 11 16 04 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/9c705b01-9fca-447d-8099-d9998b9ed63a">
