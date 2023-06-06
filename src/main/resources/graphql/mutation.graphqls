@@ -6,6 +6,7 @@ directive @Expression on ARGUMENT_DEFINITION
 
 type Mutation {
     createBankAccount(input: CreateBankAccountInput!): BankAccount!
+    createBankAccountWith(id: ID!): BankAccount!
     updateBankAccount(id: ID, name: String! @NotBlank(message: "updateBankAccount.name"), age: Int @Expression(value: "${validatedValue < 500}", message: "updateBankAccount.age")): BankAccount!
     uploadFile: ID!
 }

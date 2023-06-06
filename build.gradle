@@ -35,6 +35,8 @@ dependencies {
     implementation group: 'org.apache.maven.plugins', name: 'maven-surefire-plugin', version: '3.1.0'
     compileOnly 'org.springframework.boot:spring-boot-starter-validation'
 
+    implementation group: 'com.github.ben-manes.caffeine', name: 'caffeine', version: '3.1.6'
+
     implementation group: 'com.graphql-java-kickstart', name: 'graphql-spring-boot-starter', version: '15.0.0'
     implementation group: 'com.graphql-java-kickstart', name: 'graphql-spring-boot-starter-test', version: '15.0.0'
     implementation group: 'com.graphql-java', name: 'graphql-java-extended-scalars', version: '20.2'

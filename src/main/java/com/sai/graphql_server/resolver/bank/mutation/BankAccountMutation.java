@@ -3,6 +3,7 @@ package com.sai.graphql_server.resolver.bank.mutation;
 import com.sai.graphql_server.domain.bank.BankAccount;
 import com.sai.graphql_server.domain.bank.Currency;
 import com.sai.graphql_server.domain.bank.input.CreateBankAccountInput;
+import com.sai.graphql_server.publisher.BankAccountPublisher;
 import graphql.kickstart.tools.GraphQLMutationResolver;
 import graphql.schema.DataFetchingEnvironment;
 import jakarta.validation.Valid;
@@ -23,15 +24,30 @@ import java.util.UUID;
 public class BankAccountMutation implements GraphQLMutationResolver {
 
     private final Clock clock;
+    private final BankAccountPublisher publisher;
 
     public BankAccount createBankAccount(@Valid CreateBankAccountInput input, DataFetchingEnvironment e){
         System.out.println(e.getSelectionSet());
         log.info("Creating bank account for {}", input);
-        return BankAccount.builder().id(UUID.randomUUID())
-        .currency(Currency.USD)
-        .createdAt(ZonedDateTime.now(clock))
-        .createdOn(LocalDate.now(clock))
-        .build();
+        var bankAccount = BankAccount.builder()
+                .id(UUID.randomUUID())
+                .currency(Currency.USD)
+                .createdAt(ZonedDateTime.now(clock))
+                .createdOn(LocalDate.now(clock))
+                .build();
+        publisher.publish(bankAccount);
+        return bankAccount;
+    }
+
+    public BankAccount createBankAccountWith(UUID id) {
+        var bankAccount = BankAccount.builder()
+                .id(id)
+                .currency(Currency.USD)
+                .createdAt(ZonedDateTime.now(clock))
+                .createdOn(LocalDate.now(clock))
+                .build();
+        publisher.publish(bankAccount);
+        return bankAccount;
     }
 
     public BankAccount updateBankAccount(UUID id, String name, int age){

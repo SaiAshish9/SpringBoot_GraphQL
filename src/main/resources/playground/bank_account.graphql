@@ -1,3 +1,15 @@
+subscription BANK_ACCOUNT_UPDATES {
+  bankAccounts {
+    id
+  }
+}
+
+subscription BANK_ACCOUNT_UPDATES1 {
+  bankAccount(id: "94ad3870-2ef4-4e83-b9fb-d1cd34a3d1fa") {
+    id
+  }
+}
+
 query GET_BANK_ACCOUNT($id: ID){
     bankAccount(id: $id) {
         client {
@@ -6,4 +18,16 @@ query GET_BANK_ACCOUNT($id: ID){
             lastName
         }
     }
+}
+
+mutation CREATE_BANK_ACCOUNT_WITH {
+  createBankAccountWith(id: "95ad3870-2ef4-4e83-b9fb-d1cd34a3d1fa"){
+    id
+  }
+}
+
+mutation CREATE_BANK_ACCOUNT {
+  createBankAccount(input : {firstName: "sai", age: 9}){
+    id
+  }
 }

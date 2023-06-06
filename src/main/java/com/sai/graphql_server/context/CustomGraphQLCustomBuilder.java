@@ -3,6 +3,7 @@ package com.sai.graphql_server.context;
 import com.sai.graphql_server.context.dataloader.DataLoaderRegistryFactory;
 import graphql.kickstart.execution.context.GraphQLKickstartContext;
 import graphql.kickstart.servlet.context.DefaultGraphQLServletContext;
+import graphql.kickstart.servlet.context.DefaultGraphQLWebSocketContext;
 import graphql.kickstart.servlet.context.GraphQLServletContextBuilder;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -13,7 +14,6 @@ import lombok.extern.slf4j.Slf4j;
 
 import org.dataloader.DataLoaderRegistry;
 import org.springframework.stereotype.Component;
-
 
 
 @Component
@@ -36,7 +36,10 @@ public class CustomGraphQLCustomBuilder implements GraphQLServletContextBuilder 
 
     @Override
     public GraphQLKickstartContext build(Session session, HandshakeRequest handshakeRequest) {
-        return null;
+        return DefaultGraphQLWebSocketContext.createWebSocketContext()
+                .with(session)
+                .with(handshakeRequest)
+                .build();
     }
 
     @Override
