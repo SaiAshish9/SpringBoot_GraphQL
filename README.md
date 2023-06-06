@@ -637,5 +637,21 @@ MDC Correlation ID
 
 ```
 Query Caching Server Side
+
+The GraphQLResponseCacheManager interface provides a way to inject and query a cache (redis, in-memory, caffeine etc) before the resolvers execute. 
+
+The GraphQL responses are stored along with a cache key. A subsequent request with the same distinct cache key will return the previous queries response.
+
+This caching solution provides us with full flexibility as we have access to the query, variables, headers etc in the caching layer.
 ```
+
+<img width="1792" alt="Screenshot 2023-06-06 at 7 55 49 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/084f9389-f411-4e09-972d-45d88b29401c">
+<img width="1792" alt="Screenshot 2023-06-06 at 8 04 36 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/b5d9cef9-f61f-438f-acd0-426ebc452397">
+<img width="1792" alt="Screenshot 2023-06-06 at 8 05 04 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/c1a02896-b208-45af-ab73-7aa5fa656756">
+<img width="1792" alt="Screenshot 2023-06-06 at 8 05 11 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/67689861-a2ab-4d9b-ae5d-afc9d37223d2">
+<img width="1792" alt="Screenshot 2023-06-06 at 8 05 16 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/afc0ea84-ff89-4243-a73b-b9650e3e3fec">
+<img width="1792" alt="Screenshot 2023-06-06 at 8 06 47 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/e56c15c2-f533-41cf-964f-909032165d5a">
+<img width="1792" alt="Screenshot 2023-06-06 at 8 07 20 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/1a8b0760-961f-4ee6-a5f5-4c6b4ccddcc2">
+<img width="1792" alt="Screenshot 2023-06-06 at 8 10 07 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/6bf7b34a-e1ce-42b3-8471-37eaacca8ac4">
+
 
