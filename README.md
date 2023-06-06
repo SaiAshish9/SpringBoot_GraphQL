@@ -612,10 +612,19 @@ Subscription with Reactor
 
 <img width="1784" alt="Screenshot 2023-06-05 at 10 35 37 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/7fe58e21-50a4-40ab-9fe7-aa0d60937a1f">
 <img width="1792" alt="Screenshot 2023-06-05 at 10 37 44 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/d2079908-c766-47a9-93f4-fa52f89f8468">
+<img width="1792" alt="Screenshot 2023-06-06 at 7 39 42 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/6d9875af-fee2-474f-addf-f7cac0bcfe44">
+<img width="1792" alt="Screenshot 2023-06-06 at 7 39 54 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/243a01ab-8962-4fd7-91db-5a2ac80d62b4">
+<img width="1288" alt="Screenshot 2023-06-06 at 7 44 03 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/56049ba2-42ee-4db2-b6a1-31a23cf8c74c">
+<img width="1785" alt="Screenshot 2023-06-06 at 7 51 11 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/e004f81a-585b-4174-a40a-231e2308927a">
+<img width="1792" alt="Screenshot 2023-06-06 at 7 51 21 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/316794e1-f2ea-43b0-97c6-e06c774a4bcb">
+<img width="1792" alt="Screenshot 2023-06-06 at 7 51 30 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/90b1bedc-4f03-47ad-86aa-284ba2b61844">
+<img width="1792" alt="Screenshot 2023-06-06 at 7 51 35 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/9b7dc701-e1b1-47cc-b884-82a072a5810f">
+<img width="1792" alt="Screenshot 2023-06-06 at 7 51 41 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/3b83bde9-23e1-48ee-b4c5-8e1ead7c38db">
+<img width="1792" alt="Screenshot 2023-06-06 at 7 51 51 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/c3e9d05e-8845-483e-9409-6d68595a684e">
+<img width="1792" alt="Screenshot 2023-06-06 at 7 52 05 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/5588cb70-823c-43ee-ad6a-2eaae843a408">
+<img width="1792" alt="Screenshot 2023-06-06 at 7 52 12 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/3972c668-245d-4f54-ab7e-e9c89922c472">
+<img width="1792" alt="Screenshot 2023-06-06 at 7 52 25 AM" src="https://github.com/SaiAshish9/SpringBoot_GraphQL/assets/43849911/80314514-32c7-473c-87fc-8a4896839370">
 
-```
-Subscription with Authorization
-```
 
 ```
 MDC Correlation ID
